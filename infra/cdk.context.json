@@ -1,0 +1,38 @@
+{
+  "vpc-provider:account=058790349855:filter.isDefault=true:region=eu-north-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-01d79cda187903900",
+    "vpcCidrBlock": "172.31.0.0/16",
+    "ownerAccountId": "058790349855",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-0f27f963794705866",
+            "cidr": "172.31.16.0/20",
+            "availabilityZone": "eu-north-1a",
+            "routeTableId": "rtb-065e26a7461631a90"
+          },
+          {
+            "subnetId": "subnet-0b97637bc83e64b6f",
+            "cidr": "172.31.32.0/20",
+            "availabilityZone": "eu-north-1b",
+            "routeTableId": "rtb-065e26a7461631a90"
+          },
+          {
+            "subnetId": "subnet-0317a4d9274f042bf",
+            "cidr": "172.31.0.0/20",
+            "availabilityZone": "eu-north-1c",
+            "routeTableId": "rtb-065e26a7461631a90"
+          }
+        ]
+      }
+    ]
+  },
+  "hosted-zone:account=058790349855:domainName=cloudchaotic.com:region=eu-north-1": {
+    "Id": "/hostedzone/Z05241663C6V8VT2JGS2K",
+    "Name": "cloudchaotic.com."
+  }
+}
